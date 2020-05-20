@@ -1,0 +1,203 @@
+body{
+    text-align: center;
+}
+
+/* PART NAVBAR */
+
+#Navbar{
+    font-family: 'Playfair Display Medium 500', serif;
+}
+.nav-item{
+    padding-right: 1rem;
+}
+.navbar-brand{
+    font-family: 'Nosifer', cursive;
+    padding-left: 2rem;
+}
+
+/* PART HOME */
+
+.homepic{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+    z-index: -1;
+}
+.home-logo{
+    position: absolute;
+    width: 25%;
+    z-index: 1;
+    right: 2%;
+    top: 4%;
+}
+.home-div{
+    position: relative;
+}
+.container{
+    padding: 3rem;
+}
+
+/* PART TENTANG KAMI */
+
+#Tentang-Kami{
+    background-color: whitesmoke;
+}
+.logo-tentangkami{
+    width: 100%;
+}
+.tentangkami-header{
+    padding-bottom: 1rem;
+    font-family: 'Lobster', cursive;
+}
+.desc-aboutus{
+    padding-top: 3rem;
+    font-family: 'Balsamiq Sans', cursive;
+    line-height: 2;
+}
+
+/* PART PROMO */
+
+#Promo{
+    padding: 7% 0;
+    margin-bottom: 1rem;
+}
+
+/* PART MENU */
+
+#Menu{
+    text-align: center;
+    background-color: white;
+    padding-top: 1.5rem;
+}
+.menu{
+    padding: 3% 15%;
+}
+.menu-header{
+    font-family: 'Nosifer', cursive;
+}
+.menu-desc{
+    font-family: 'Courgette', cursive;
+}
+.menu-image{
+    width: 50%;
+}
+.bg-menu:hover{
+    background-color: #f0f0f0;
+}
+.carousel-control-prev:hover{
+    background-color: #dddddd;
+}
+.carousel-control-prev-icon{
+    background-color: #dddddd;
+}
+.carousel-control-next:hover{
+    background-color: #dddddd;
+}
+.carousel-control-next-icon{
+    background-color: #dddddd;
+}
+
+
+/* PART LOKASI */
+
+#Lokasi{
+    padding: 4% 15% 7%;
+}
+.lokasi-div{
+    padding-bottom: 1rem;
+}
+.lokasi-head{
+    font-family: 'Lobster', cursive;
+    text-align: left;
+}
+.lokasi-head-desc{
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+}
+.lokasi{
+    text-align: left;
+    font-family: 'Bree Serif', serif;
+}
+.larger-map{
+    position: relative;
+    right: 28%;
+}
+
+/* PART FOOTER */
+
+#Footer{
+    color: #ffffff;
+    background-color: black;
+}
+.text{
+    text-align: left;
+    border-right: 1px solid;
+    border-color: white;
+}
+.text-content{
+    padding: 5% 7%;
+}
+.header-foot{
+    font-family: 'Nosifer', cursive;
+}
+.desc-foot{
+    font-family: 'Bree Serif', serif;
+}
+.p-foot{
+    font-family: 'Lobster', cursive;
+}
+.kontak{
+    text-align: center;
+    border-left: 1px solid;
+    border-color: white;
+}
+.logo-kontak{
+    font-size: 2rem;
+    margin: 5rem 0.5rem 0;
+    color: white;
+    padding: 1rem 0;
+}
+.sosmed{
+    position: relative;
+    top: 10%;
+    display: inline;
+}
+.footer-line{
+    font-family: 'Courgette', cursive;
+    color: #ffffff;
+}
+
+/* FAQ */
+#FAQ{
+    background-color: whitesmoke;
+    text-align: left;
+}
+.FAQ-head{
+    font-family: 'Nosifer', cursive;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+/* Media Query */
+
+@media(max-width:1024px){
+    .home-logo{
+        top: 8%;
+    }
+    .menu-image{
+        padding-bottom: 2rem;
+    }
+    .menu-desc{
+        padding-bottom: 2rem;
+    }
+    .maps{
+        width: auto;
+    }
+}
+@media(max-width:700px){
+    .home-logo{
+        width: 15%;
+        top: 18%;
+    }
+}
